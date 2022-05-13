@@ -13,7 +13,7 @@ import (
 	"github.com/openshift/hypershift/control-plane-operator/controllers/hostedapicache"
 	"github.com/openshift/hypershift/control-plane-operator/controllers/hostedcontrolplane/manifests"
 	"github.com/openshift/hypershift/control-plane-operator/hostedclusterconfigoperator"
-	ignitionserver "github.com/openshift/hypershift/ignition-server/cmd"
+	ignitionserver "github.com/openshift/hypershift/ignition-server"
 	konnectivitysocks5proxy "github.com/openshift/hypershift/konnectivity-socks5-proxy"
 	kubernetesdefaultproxy "github.com/openshift/hypershift/kubernetes-default-proxy"
 	"github.com/openshift/hypershift/pkg/version"
